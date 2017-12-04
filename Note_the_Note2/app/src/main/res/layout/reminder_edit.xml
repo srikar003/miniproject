@@ -17,6 +17,7 @@
 			android:id="@+id/title"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
+			android:backgroundTint="@color/colorPrimary"
 			android:layout_margin="10dp"
 			android:gravity="left"
 			android:hint="add Title" />
@@ -35,6 +36,7 @@
 			android:layout_height="wrap_content"
 			android:layout_margin="10dp"
 			android:gravity="top"
+			android:backgroundTint="@color/colorPrimary"
 			android:hint="add Content" />
 		<TextView android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
@@ -58,13 +60,13 @@
 		  <!--android:text="@string/confirm"-->
 			<!--android:layout_width="fill_parent"-->
 			<!--android:layout_height="wrap_content" />-->
-        <Button
-                android:id="@+id/confirm"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="@string/confirm"
-                android:textSize="16sp"
-                />
+		<Button
+			android:id="@+id/confirm"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="10dp"
+			android:background="@color/colorPrimary"
+			android:text="@string/confirm"
+			android:textSize="16sp" />
 	</LinearLayout>
 </ScrollView>

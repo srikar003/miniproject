@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Note The Note</string>
+    <string name="app_name">NoteTheNote</string>
     <string name="edit_reminder_title">Add Reminder</string>
     <string name="reminder_title">Note The Note</string>
     <string name="no_reminders">No Reminders Yet</string>
